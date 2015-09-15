@@ -1,0 +1,24 @@
+{
+  "name": "weixin-test",
+  "version": "1.0.0",
+  "description": "Weixin API test",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weixin"
+  ],
+  "author": "Ash Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "node-wechat": "^0.1.0",
+    "wechat": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.5.0"
+  }
+}
